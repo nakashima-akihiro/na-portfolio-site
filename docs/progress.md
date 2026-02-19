@@ -45,10 +45,10 @@
 
 ## フェーズ6：Vercelデプロイ
 
-- [ ] GitHubリポジトリ作成・push
-- [ ] Vercelプロジェクト作成・連携
+- [x] GitHubリポジトリ作成・push
+- [x] Vercelプロジェクト作成・連携
 - [ ] `BLOB_READ_WRITE_TOKEN` 環境変数設定
-- [ ] 動作確認
+- [x] 動作確認
 
 ---
 

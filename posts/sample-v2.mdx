@@ -1,0 +1,30 @@
+---
+title: "サンプルアプリ v2"
+date: "2026-02-19"
+description: "Vercel Blobで画像をホストしたサンプル記事です。"
+tags: ["Next.js", "TypeScript", "Vercel"]
+coverImage: "https://kd4cuvwnwwrcpy7b.public.blob.vercel-storage.com/covers/sample-cover.svg"
+---
+
+## 概要
+
+このアプリはVercel Blobを使った画像ホスティングのサンプルです。
+カバー画像をVercel Blobにアップロードし、MDXフロントマターで参照しています。
+
+## 使った技術
+
+- **Next.js** - フレームワーク
+- **TypeScript** - 型安全
+- **Vercel Blob** - 画像ホスティング
+
+## 画像の使い方
+
+カバー画像はVercel Blobにアップロードして、フロントマターの `coverImage` に指定します。
+
+```yaml
+coverImage: "https://xxxx.public.blob.vercel-storage.com/covers/image.png"
+```
+
+本文中でも直接参照できます：
+
+![サンプルカバー画像](https://kd4cuvwnwwrcpy7b.public.blob.vercel-storage.com/covers/sample-cover.svg)
